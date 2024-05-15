@@ -1,0 +1,98 @@
+/* banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.banner h3, h4  {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* footer */
+#footer-info {
+    background: grey;
+}
+
+#footer-info .sosmed-icon {
+    height: 40px;
+    width: 40px;
+}
+
+#footer-info a {
+    color: white;
+}
+
+#footer-info a:hover {
+    color: black;
+}
+
+.cpright {
+    background-color: black;
+}
+
+/* layanan */
+.Layanan{
+    background-color: navy;
+    height: 100vh;
+    padding-top: 10vh;
+    color:#fff;
+}
+
+.lingkaran {    
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    background-color: black;
+    color: #fff;
+}
+
+.lingkaran:hover {
+    background-color: #fff;    
+    color: #000;
+}
+
+.lingkaran i {
+     position: relative;
+     top: 25px;
+}
+
+
+/* kontak kami */
+.from-control:focus {
+    border-color: #212529; 
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* tentang kami */
+.tentangkami {
+    height: 100vh;
+    background-color: navy;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+    height: 500px;
+    width: 900px;
+    margin: 10vh;
+    border-radius: 25px;
+    margin-left: 20%;
+}
+
